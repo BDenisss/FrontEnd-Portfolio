@@ -24,6 +24,7 @@ body{
     width: 210px;
     height: 100%;
     background-color: #7209B7;
+    background: linear-gradient(0.5turn,#7209B7,#8300D9);
 }
 
 .container-nav .navbar h3{
@@ -34,7 +35,6 @@ body{
     background-color: #8300D9;
     padding: 28px;
     font-size: 69px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
 .container-nav .navbar ul li{

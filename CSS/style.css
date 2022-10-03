@@ -17,6 +17,8 @@ body{
     position: relative;
 }
 
+/* NAVBAR */
+
 .container-nav .navbar{
     position: fixed;
     width: 210px;
@@ -96,6 +98,9 @@ body{
     color: #FFE6E6;
 }
 
+/* FIN NAVBAR */
+
+/* CONTENU PRESENTATION */
 .container-nav .main-content {
     width: 100%;
     margin-left: 210px;
@@ -157,3 +162,4 @@ body{
     filter: drop-shadow(15px 5px 10px);
 }
 
+/* FIN CONTENU PRESENTATION */

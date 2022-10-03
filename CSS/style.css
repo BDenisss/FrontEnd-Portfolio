@@ -4,17 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body{
-    background-color: #34067E;
+    background: linear-gradient(0.25turn,#34067E, #7209B7);
 }
 
 
 .container-nav{
     display: flex;
     position: relative;
+    height: 100vh;
 }
 
 /* NAVBAR */

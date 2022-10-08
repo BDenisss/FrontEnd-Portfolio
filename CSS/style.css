@@ -11,7 +11,7 @@ body{
 }
 
 
-.container-nav{
+.container{
     display: flex;
     position: relative;
     height: 100vh;
@@ -19,7 +19,7 @@ body{
 
 /* NAVBAR */
 
-.container-nav .navbar{
+.container .navbar{
     position: fixed;
     width: 210px;
     height: 100%;
@@ -27,7 +27,7 @@ body{
     background: linear-gradient(0.5turn,#7209B7,#8300D9);
 }
 
-.container-nav .navbar h3{
+.container .navbar h3{
     color: #fff;
     font-family: 'Inspiration', cursive;
     text-align: center;
@@ -37,7 +37,7 @@ body{
     font-size: 69px;
 }
 
-.container-nav .navbar ul li{
+.container .navbar ul li{
     padding: 20px;
     font-family: 'Inter', sans-serif;
     font-size: 28px;
@@ -45,11 +45,11 @@ body{
     text-shadow: 6px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.container-nav .navbar a {
+.container .navbar a {
     position: relative;
 }
 
-.container-nav .navbar a::before {
+.container .navbar a::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -63,37 +63,37 @@ body{
     transition: transform .3s ease-in-out;
     }
 
-.container-nav .navbar a:hover::before {
+.container .navbar a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
 
 
-.container-nav .navbar ul li:nth-child(5){
+.container .navbar ul li:nth-child(5){
     border: none;
     text-shadow: none;
     text-align: center;
     margin-top: 100px;
 }
-.container-nav .navbar ul li:nth-child(6){
+.container .navbar ul li:nth-child(6){
     border: none;
     text-shadow: none;
     text-align: center;
 }
-.container-nav .navbar ul li:nth-child(7){
+.container .navbar ul li:nth-child(7){
     border: none;
     text-shadow: none;
     text-align: center;
 }
 
 
-.container-nav .navbar ul li a{
+.container .navbar ul li a{
     color: #FFE6E6;
     text-decoration: none;
 }
 
 
-.container-nav .navbar ul li i{
+.container .navbar ul li i{
     margin-right: 10px;
     color: #FFE6E6;
 }
@@ -101,7 +101,7 @@ body{
 /* FIN NAVBAR */
 
 /* CONTENU PRESENTATION */
-.container-nav .main-content {
+.container .main-content {
     width: 100%;
     margin-left: 210px;
     padding-left: 130px;
@@ -110,27 +110,27 @@ body{
     margin-top: 190px;
 }
 
-.container-nav .main-content .content h1 {
+.container .main-content .content h1 {
     font-size: 96px;
     color: #E0C8C8;
     text-shadow: 6px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.container-nav .main-content .content h3 {
+.container .main-content .content h3 {
     font-size: 36px;
     color: #E0C8C8;
     margin-top: 45px;
     text-shadow: 6px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.container-nav .main-content .content h5 {
+.container .main-content .content h5 {
     font-size: 28px;
     color: #E0C8C8;
     margin-top: 50px;
     text-shadow: 6px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.container-nav .main-content .content button {
+.container .main-content .content button {
     font-size: 24px;
     width: 230px;
     height: 80px;
@@ -142,18 +142,18 @@ body{
     filter: drop-shadow(2px 5px 2px rgba(0, 0, 0, 0.25));
 }
 
-.container-nav .main-content .content button a {
+.container .main-content .content button a {
     color: #E0C8C8;
     text-decoration: none;
     text-shadow: 6px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.container-nav .main-content .content button a i {
+.container .main-content .content button a i {
     color: #E0C8C8;
     margin-left: 12px;
 }
 
-.container-nav .main-content img {
+.container .main-content img {
     height: 500px;
     width: 500px;
     object-fit: cover;
@@ -163,3 +163,55 @@ body{
 }
 
 /* FIN CONTENU PRESENTATION */
+
+/* TRAVAIL RESPONSIVE */
+
+@media screen and (max-width: 1655px){
+
+    body{
+        background: linear-gradient(0.25turn,#34067E, #7209B7);
+        background-repeat: no-repeat;
+    }
+    
+    .container .main-content {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 300px;
+        margin-top: 190px;
+    }
+
+    .container .main-content img {
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        position: relative;
+        height: 100vh;
+    }
+
+    .container .navbar{
+        top: 0;
+        width: 100%;
+        height: 100px;
+    }
+
+    .container .navbar h3{
+        text-align: left;
+        left: 0;
+    }
+    
+    .container .navbar ul li{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+/* FIN DU TRAVAIL RESPONSIVE */

@@ -239,8 +239,14 @@ body{
         list-style: none;
     }
 
-    .container .navbar ul LI{
+    .container .navbar ul li{
         display: flex;
+        font-size: 24px;
+        height: fit-content;
+    }
+
+    .container .navbar ul li:nth-child(5){
+        flex: 4;
     }
 
     .container .navbar ul li:nth-child(6){
@@ -254,6 +260,14 @@ body{
 
     .container{
         justify-content: center;
+    }
+
+    .container .navbar {
+        height: 80px;
+    }
+
+    .container .navbar ul li {
+        font-size: 22px;
     }
 
     .container .main-content {
@@ -293,6 +307,17 @@ body{
         justify-content: center;
     }
 
+    .container .navbar {
+        height: 70px;
+    }
+
+    .container .navbar ul li {
+        font-size: 20px;
+    }
+
+    .container .navbar ul li:nth-child(5){
+        border-right: 1px solid rgba(250, 250, 250, 0.568);
+    }
 
     .container .main-content .content h1 {
         font-size: 52px;
@@ -335,6 +360,10 @@ body{
 
     .container{
         justify-content: center;
+    }
+
+    .container .navbar ul {
+        display: none;
     }
 
     .container .main-content .content h1 {

@@ -12,16 +12,20 @@ body{
 
 
 .container{
-    display: flex;
-    position: relative;
     height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 210px 1fr;
+    grid-template-areas: "nav content";
 }
 
 /* NAVBAR */
 
 .container .navbar{
-    position: fixed;
-    width: 210px;
+    grid-area: nav;
+    /*position: fixed;*/
+    width: 100%;
+    top: 0;
     height: 100%;
     background-color: #7209B7;
     background: linear-gradient(0.5turn,#7209B7,#8300D9);
@@ -31,10 +35,16 @@ body{
     color: #fff;
     font-family: 'Inspiration', cursive;
     text-align: center;
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
     background-color: #8300D9;
     padding: 28px;
     font-size: 69px;
+}
+
+.container .navbar ul {
+    top: 0;
+    position: sticky;
+    height: 100vh;
 }
 
 .container .navbar ul li{
@@ -103,11 +113,10 @@ body{
 /* CONTENU PRESENTATION */
 .container .main-content {
     width: 100%;
-    margin-left: 210px;
-    padding-left: 130px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 190px;
+    padding: 0 40px;
+    grid-area: content;
 }
 
 .container .main-content .content h1 {
@@ -158,12 +167,33 @@ body{
     width: 500px;
     object-fit: cover;
     border-radius: 220px;
-    margin-left: 150px;
     border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
     background-color: #E0C8C8;
     filter: drop-shadow(15px 5px 10px);
-    animation: fancy-border-animation 3.5s;
+    animation: fancy-border-animation 4s infinite;
 }
+
+.container .main-content .content {
+    width: 100%;
+}
+
+.container .main-content .content .intro {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    height: 100vh;
+}
+
+.container .main-content .content .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
 
 /* FIN CONTENU PRESENTATION */
 
@@ -187,13 +217,14 @@ body{
         display: none;
     }
 
+    .container .navbar {
+        position: fixed;
+        z-index: 1;
+    }
+    
     .container .main-content {
         width: 100%;
-        margin-right: 0;
-        margin-top: 20vh;
-        padding-left: 0;
         position: relative;
-        margin-left: 0;
         justify-content: center;
     }
 
@@ -410,15 +441,15 @@ body{
 
 @keyframes fancy-border-animation {
     from {
-        border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%; 
+        border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
     }
 
     50% {
-        border-radius: 63% 37% 87% 13% / 23% 67% 33% 77% ;
+        border-radius: 55% 45% 45% 55% / 46% 46% 54% 54% ; 
     }
 
     to {
-        border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%; 
+        border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%
     }
 }
 

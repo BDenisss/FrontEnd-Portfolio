@@ -12,6 +12,7 @@ html{
 
 body{
     background: linear-gradient(0.25turn,#34067E, #7209B7);
+    overflow-x: hidden;
 }
 
 
@@ -458,7 +459,22 @@ body{
     }
 }
 
-
-
-
 /* FIN SETUP ANIMATION */
+
+/* ANIMATION ON SCROLL */
+
+.hidden {
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+
+/* FIN ANIMATION ON SCROLL */

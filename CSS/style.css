@@ -436,6 +436,10 @@ body{
         height: 60px;
     }
 
+    .container .main-content .content .intro {
+        gap: 0;
+    }
+
 }
 
 
@@ -465,9 +469,9 @@ body{
 
 .hidden {
     opacity: 0;
-    filter: blur(1px);
+    filter: blur(5px);
     transform: translateX(100%);
-    transition: all 1s;
+    transition: all 1.5s;
 }
 
 .show{

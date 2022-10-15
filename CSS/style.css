@@ -192,7 +192,7 @@ body{
     height: 100vh;
 }
 
-.container .main-content .content .about {
+.container .main-content .content .info_container {
     display: flex;
     justify-content: center;
     align-items: center;

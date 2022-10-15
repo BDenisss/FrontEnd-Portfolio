@@ -189,8 +189,9 @@ body{
 }
 
 .container .main-content img:hover {
-    scale: 1.05;
+    scale: 1.06;
     filter: drop-shadow(10px 5px 10px #83c3ff);
+    animation: float 3s infinite;
 }
 
 .container .main-content .content {
@@ -476,6 +477,22 @@ body{
         border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%
     }
 }
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+}
+
+
 
 /* FIN SETUP ANIMATION */
 

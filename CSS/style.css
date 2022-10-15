@@ -114,6 +114,14 @@ body{
     color: #FFE6E6;
 }
 
+.container .navbar #social {
+    transition: .2s ease-in-out;
+}
+
+.container .navbar #social:hover {
+    color: #a2d2ff;
+}
+
 /* FIN NAVBAR */
 
 /* CONTENU PRESENTATION */

@@ -185,6 +185,12 @@ body{
     background-color: #E0C8C8;
     filter: drop-shadow(15px 5px 10px);
     animation: fancy-border-animation 4s infinite;
+    transition: .3s ease-in-out;
+}
+
+.container .main-content img:hover {
+    scale: 1.05;
+    filter: drop-shadow(10px 5px 10px #83c3ff);
 }
 
 .container .main-content .content {

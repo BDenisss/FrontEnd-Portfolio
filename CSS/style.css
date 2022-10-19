@@ -85,18 +85,18 @@ body{
 }
 
 
-.container .navbar ul li:nth-child(6){
+.container .navbar ul li:nth-child(7){
     border: none;
     text-shadow: none;
     text-align: center;
     margin-top: 100px;
 }
-.container .navbar ul li:nth-child(7){
+.container .navbar ul li:nth-child(8){
     border: none;
     text-shadow: none;
     text-align: center;
 }
-.container .navbar ul li:nth-child(8){
+.container .navbar ul li:nth-child(9){
     border: none;
     text-shadow: none;
     text-align: center;
@@ -297,11 +297,11 @@ body{
         height: fit-content;
     }
 
-    .container .navbar ul li:nth-child(5){
+    .container .navbar ul li:nth-child(6){
         flex: 4;
     }
 
-    .container .navbar ul li:nth-child(6){
+    .container .navbar ul li:nth-child(7){
         margin-top: 0;
     }
     
@@ -367,7 +367,7 @@ body{
         font-size: 20px;
     }
 
-    .container .navbar ul li:nth-child(5){
+    .container .navbar ul li:nth-child(6){
         border-right: 1px solid rgba(250, 250, 250, 0.568);
     }
 

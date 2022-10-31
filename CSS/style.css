@@ -60,15 +60,22 @@ body{
     text-shadow: 6px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.container .navbar a {
+.container .navbar .nav-link {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.container .navbar p {
     position: relative;
 }
 
-.container .navbar a::before {
+.container .navbar p::before {
     content: '';
     position: absolute;
     width: 100%;
-    height: 4px;
+    height: 3px;
     border-radius: 4px;
     background-color: #FFE6E6;
     bottom: 0;
@@ -78,7 +85,7 @@ body{
     transition: transform .3s ease-in-out;
     }
 
-.container .navbar a:hover::before {
+.container .navbar p:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
@@ -113,11 +120,11 @@ body{
     color: #FFE6E6;
 }
 
-.container .navbar #social {
+.container .navbar .social {
     transition: .2s ease-in-out;
 }
 
-.container .navbar #social:hover {
+.container .navbar .social:hover {
     color: #a2d2ff;
 }
 

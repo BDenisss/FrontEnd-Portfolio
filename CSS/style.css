@@ -296,9 +296,9 @@ body{
     border-radius: 20%;
 }
 
-.container .main-content .content .info_container .item_social h1 {
+.container .main-content .content .info_container .item_social h1:nth-child(2) {
     margin-top: 25px;
-    font-size: 28px;
+    font-size: 25px;
     text-align: center;
 }
 

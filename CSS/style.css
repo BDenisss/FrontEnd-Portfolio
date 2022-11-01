@@ -303,6 +303,9 @@ body{
 .logo:nth-child(7) {
     transition-delay: 600ms;
 }
+.logo:nth-child(8) {
+    transition-delay: 700ms;
+}
 
 
 /* FIN CONTENU PRESENTATION */

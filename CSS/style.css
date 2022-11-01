@@ -294,6 +294,13 @@ body{
     backdrop-filter: blur(4px);
     padding: 1.5rem;
     border-radius: 20%;
+    transition: all 1s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.container .main-content .content .info_container .item_social img:hover {
+    transform: rotateY(180deg);
+    background-color: #fff;
 }
 
 .container .main-content .content .info_container .item_social h1:nth-child(2) {

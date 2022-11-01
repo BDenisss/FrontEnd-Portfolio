@@ -143,8 +143,6 @@ body{
     font-size: 96px;
     color: #E0C8C8;
     text-shadow: 6px 2px 4px rgba(0, 0, 0, 0.25);
-    -webkit-transform: skew(-10deg, 0);
-    transform: skew(-10deg, 0); 
     letter-spacing: 1px;
 }
 
@@ -251,13 +249,11 @@ body{
 }
 
 .container .main-content .content .info_container .card {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 2.5rem;
+    border-radius: 25px;
+    background: linear-gradient(0.25turn,#34067E, #7209B7);
+    box-shadow:  -20px -20px 60px #34067E,
+                20px 20px 60px #7209B7;
+    padding: 2rem;
     display: flex;
     justify-content: center;
 }
@@ -267,7 +263,7 @@ body{
     justify-content: center;
     width: 100%;
     gap: 50px;
-    padding: 50px 0;
+    padding: 60px 0;
     flex-wrap: wrap;
 }
 

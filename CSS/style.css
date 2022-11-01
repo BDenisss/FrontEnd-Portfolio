@@ -366,17 +366,13 @@ body{
         height: 100px;
         position: fixed;
     }
-
-    .container .navbar h3{
-        text-align: left;
-        left: 0;
-    }
     
     .container .navbar ul{
         display: flex;
         width: 100%;
         height: 100px;
         list-style: none;
+        align-items: center;
     }
 
     .container .navbar ul li{
@@ -403,6 +399,10 @@ body{
     }
 
     .container .navbar {
+        height: 80px;
+    }
+
+    .container .navbar ul {
         height: 80px;
     }
 
@@ -451,8 +451,12 @@ body{
         height: 70px;
     }
 
+    .container .navbar ul {
+        height: 70px;
+    }
+
     .container .navbar ul li {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .container .navbar ul li:nth-child(6){

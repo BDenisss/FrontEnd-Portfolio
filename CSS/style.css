@@ -210,7 +210,7 @@ body{
     margin-left: 12px;
 }
 
-.container .main-content img {
+.container .main-content .img {
     height: 500px;
     width: 500px;
     object-fit: cover;
@@ -222,7 +222,7 @@ body{
     transition: .3s ease-in-out;
 }
 
-.container .main-content img:hover {
+.container .main-content .img:hover {
     scale: 1.06;
     filter: drop-shadow(10px 5px 10px #83c3ff);
     animation: float 3s infinite;
@@ -251,14 +251,59 @@ body{
 }
 
 .container .main-content .content .info_container .card {
-    background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 4px );
-    -webkit-backdrop-filter: blur( 4px );
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 2.5rem;
+    display: flex;
+    justify-content: center;
 }
+
+.container .main-content .content .info_container .item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.container .main-content .content .info_container .item img {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.logo:nth-child(2) {
+    transition-delay: 100ms;
+}
+.logo:nth-child(3) {
+    transition-delay: 200ms;
+}
+.logo:nth-child(4) {
+    transition-delay: 300ms;
+}
+.logo:nth-child(5) {
+    transition-delay: 400ms;
+}
+.logo:nth-child(6) {
+    transition-delay: 500ms;
+}
+.logo:nth-child(7) {
+    transition-delay: 600ms;
+}
+
 
 /* FIN CONTENU PRESENTATION */
 
@@ -306,7 +351,7 @@ body{
     }
 
 
-    .container .main-content img {
+    .container .main-content .img {
         width: 420px;
         height: 420px;
         margin-top: 30px;
@@ -386,7 +431,7 @@ body{
 
 
 
-    .container .main-content img {
+    .container .main-content .img {
         height: 400px;
         width: 400px;
         object-fit: cover;
@@ -434,7 +479,7 @@ body{
     }
     
 
-    .container .main-content img {
+    .container .main-content .img {
         height: 300px;
         width: 300px;
         object-fit: cover;
@@ -483,7 +528,7 @@ body{
     }
     
 
-    .container .main-content img {
+    .container .main-content .img {
         display: none;
     }
 

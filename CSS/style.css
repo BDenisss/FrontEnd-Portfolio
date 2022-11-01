@@ -560,11 +560,18 @@ body{
     .container .main-content .content .intro {
         gap: 0;
     }
-}
 
-@media screen and (max-width: 910px) {
     .container .main-content .content .info_container .item {
         gap: 30px;
+    }
+
+    .container .main-content .content .info_container .card {
+        font-size: 24px;
+    }
+
+    .container .main-content .content .info_container h3 {
+        font-size: 20px;
+        text-align: center;
     }
 }
 
@@ -573,11 +580,25 @@ body{
         gap: 20px;
     }
     .container .main-content .content .info_container .item img{
-        height: 100px;
         width: 100px;
+    }
+
+    .container .main-content .content .info_container h3 {
+        font-size: 16px;
     }
 }
 
+@media screen and (max-width: 480px) {
+
+    .container .main-content .content .info_container .item {
+        gap: 20px;
+        width: 70vw;
+    }
+
+    .container .main-content .content .info_container .item img{
+        width: 75px;
+    }
+}
 
 
 

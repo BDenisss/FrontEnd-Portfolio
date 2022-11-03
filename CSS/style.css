@@ -222,7 +222,6 @@ body{
 
 .container .main-content .img:hover {
     filter: drop-shadow(10px 5px 10px #83c3ff);
-    animation: float 3s infinite;
     animation: fancy-border-animation 4s infinite;
 }
 
@@ -677,9 +676,6 @@ body{
     to {
         border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%
     }
-}
-
-@keyframes float {
     0% {
         transform: translateY(0);
     }
@@ -690,8 +686,8 @@ body{
     100% {
         transform: translateY(0);
     }
-
 }
+
 
 
 

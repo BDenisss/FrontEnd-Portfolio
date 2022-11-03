@@ -223,6 +223,7 @@ body{
 .container .main-content .img:hover {
     filter: drop-shadow(10px 5px 10px #83c3ff);
     animation: float 3s infinite;
+    animation: fancy-border-animation 4s infinite;
 }
 
 .container .main-content .content {
@@ -403,14 +404,14 @@ body{
     .container .navbar{
         top: 0;
         width: 100%;
-        height: 100px;
+        height: 90px;
         position: fixed;
     }
     
     .container .navbar ul{
         display: flex;
         width: 100%;
-        height: 100px;
+        height: 90px;
         list-style: none;
         align-items: center;
     }
@@ -545,6 +546,16 @@ body{
         height: 125px;
         width: 125px;
     }
+
+    .container .main-content .content .info_container .item_social img {
+        height: 200px;
+        width: 200px;
+    }
+    .container .main-content .content .info_container .item_social h1:nth-child(2) {
+        font-size: 100%;
+    }
+
+
 }
 
 
@@ -602,7 +613,10 @@ body{
 
     .container .main-content .content .info_container .card {
         font-size: 24px;
+        width: 80vw;
     }
+
+
 
     .container .main-content .content .info_container h3 {
         font-size: 20px;
@@ -611,6 +625,17 @@ body{
 }
 
 @media screen and (max-width: 540px) {
+
+
+
+    .container .navbar {
+        height: 50px;
+    }
+
+    .container .navbar ul {
+        height: 50px;
+    }
+
     .container .main-content .content .info_container .item {
         gap: 20px;
     }
@@ -627,7 +652,6 @@ body{
 
     .container .main-content .content .info_container .item {
         gap: 20px;
-        width: 70vw;
     }
 
     .container .main-content .content .info_container .item img{

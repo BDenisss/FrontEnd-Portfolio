@@ -33,8 +33,6 @@ hamburger.addEventListener("click", () => {
         hamburger.classList.toggle("is-active");
         nav.classList.toggle("navbar-active");
     });
-
-responsiveNav();
 /* Fonction du burger */
 
 

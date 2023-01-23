@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    background: linear-gradient(0.25turn,#34067E, #7209B7);
+    background: #003356;
     overflow-x: hidden;
     font-family: kudryashev-d-contrast-sans,sans-serif;
 }
@@ -33,7 +33,7 @@ body{
     width: 100%;
     top: 0;
     height: 100%;
-    background: linear-gradient(0.5turn,#7209B7,#8300D9);
+    background: #00406c;
 }
 
 .container .navbar h3{
@@ -41,7 +41,7 @@ body{
     font-family: 'Inspiration', cursive;
     text-align: center;
     margin-bottom: 50px;
-    background-color: #8300D9;
+    background-color: #00406c;
     padding: 28px;
     font-size: 69px;
 }
@@ -259,8 +259,8 @@ body{
 .container .main-content .content .info_container .card {
     border-radius: 25px;
     background: linear-gradient(0.25turn,#34067E, #7209B7);
-    box-shadow:  -20px -20px 60px #34067E,
-    20px 20px 60px #7209B7;
+    box-shadow:  -20px -20px 50px #34067E,
+    20px 20px 50px #7209B7;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -353,10 +353,6 @@ body{
 /* TRAVAIL RESPONSIVE */
 
 @media screen and (max-width: 1655px){
-
-    body{
-        background: linear-gradient(0.25turn,#34067E, #7209B7);
-    }
 
     .container{
         display: flex;

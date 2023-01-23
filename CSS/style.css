@@ -169,7 +169,7 @@ body{
     width: 230px;
     height: 80px;
     border-radius: 20px;
-    background-color: #7209B7;
+    background: #00406c;
     color: #E0C8C8;
     border: none;
     margin-top: 50px;
@@ -191,7 +191,7 @@ body{
     width: 100%;
     height: 100%;
     margin: 0px auto;
-    background-color: #630c9c;
+    background: #003356;
     transform: scaleX(0);
     transition: transform .3s ease-in-out;
 }
@@ -258,9 +258,8 @@ body{
 
 .container .main-content .content .info_container .card {
     border-radius: 25px;
-    background: linear-gradient(0.25turn,#34067E, #7209B7);
-    box-shadow:  -20px -20px 50px #34067E,
-    20px 20px 50px #7209B7;
+    background: linear-gradient(0.25turn,#00406c, #003356);
+    box-shadow:  -10px -10px 30px #00406c, 0px 20px 30px #00406c;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -740,7 +739,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 12px;
-    margin-top: 20px;
+    margin-top: 35px;
     justify-content: center;
 }
 

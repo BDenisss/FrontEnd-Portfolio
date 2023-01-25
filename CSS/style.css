@@ -297,12 +297,12 @@ body{
     backdrop-filter: blur(4px);
     padding: 1.5rem;
     border-radius: 20%;
-    transition: all .4s ease-in;
+    transition: all .3s ease-in-out;
     transform-style: preserve-3d;
 }
 
 .container .main-content .content .info_container .item_social img:hover {
-    box-shadow: 0 0 10px #ffffff, 0 0 40px #ffffff;
+    box-shadow: 0 0 8px #ffffff, 0 0 30px #ffffff;
 }
 
 .container .main-content .content .info_container .item_social h1:nth-child(2) {
@@ -736,20 +736,25 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 8px;
-    height: fit-content;
-    width: fit-content;
+    gap: 10px;
+    height: 250px;
+    width: 250px;
     object-fit: contain;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border: 1px solid rgba(255, 255, 255, 0.18);
     backdrop-filter: blur(4px);
     border-radius: 10px;
-    padding: 1rem;
+    transition: all .3s ease-in-out;
+}
+
+.project:hover {
+    box-shadow: 0 0 8px #ffffff, 0 0 30px #ffffff;
 }
 
 .project img {
     height: 200px;
+    width: 200px;
     object-fit: cover ;
     border-radius: 12px;
 }
@@ -782,4 +787,9 @@ body{
 
 .project:nth-child(4) {
     transition-delay: 800ms;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
 }

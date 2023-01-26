@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/dist/hamburgers.min.css">
     <!--Font & Icone-->
     <link rel="stylesheet" href="https://use.typekit.net/vwp3eqo.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/b5ab5411f1.js" crossorigin="anonymous"></script>
     <title>Portfolio Denis-Bucspun - Junior Web Developer !</title>
     <!--Données structurées avec balisage JSON-LD-->
@@ -68,41 +69,39 @@
             <div class="info_container" id="about">
                 <div class="hidden">
                     <h1 class="card">About Me</h1>
-                    <h3>I first got into coding when I was in high school at the age of 16, starting with algorithms in python and HTML/CSS for the web language. The same year, I had my first web project which consisted in creating a website in HTML/CSS including python, I was very quickly taken of passion which I spent several hours on it, which earned me a 17/20 in this project. Today, I am a student at IIM in Digital Coding & Innovation in order to become a full-stack developer.</h3>
+                    <p class="about_me">I first got into coding when I was in high school at the age of 16, starting with algorithms in python and HTML/CSS for the web language. The same year, I had my first web project which consisted in creating a website in HTML/CSS including python, I was very quickly taken of passion which I spent several hours on it, which earned me a 17/20 in this project. Today, I am a student at IIM in Digital Coding & Innovation in order to become a full-stack developer.</p>
                 </div>
             </div>
-            <div class="info_container" id="skills">
-                <div>
-                    <h1 class="card">Skills</h1>
-                    <div class="item">
-                        <div class="logo hidden">
-                            <img src="/img/html5-min.png" alt="html5">
-                        </div>
-                        <div class="logo hidden">
-                            <img src="/img/css3-min.png" alt="css3">
-                        </div>
-                        <div class="logo hidden">
-                            <img src="/img/JS-min.png" alt="JS, Javascript">
-                        </div>
-                        <div class="logo hidden">
-                            <img src="/img/sass-min.png" alt="sass, scss">
-                        </div>
-                        <div class="logo hidden">
-                            <img src="/img/tailwind-min.png" alt="tailwind-css">
-                        </div>
-                        <div class="logo hidden">
-                            <img src="/img/git-min.png" alt="git">
-                        </div>
-                        <div class="logo hidden">
-                            <img src="/img/php-min.png" alt="php">
-                        </div>
-                        <div class="logo hidden">
-                            <img src="/img/swiftUI.png" alt="swiftUI">
-                        </div>
+            <div class="skills_container" id="skills">
+                <h1 class="card">Skills</h1>
+                <div class="item">
+                    <div class="logo hidden">
+                        <img src="/img/html5-min.png" alt="html5">
+                    </div>
+                    <div class="logo hidden">
+                        <img src="/img/css3-min.png" alt="css3">
+                    </div>
+                    <div class="logo hidden">
+                        <img src="/img/JS-min.png" alt="JS, Javascript">
+                    </div>
+                    <div class="logo hidden">
+                        <img src="/img/sass-min.png" alt="sass, scss">
+                    </div>
+                    <div class="logo hidden">
+                        <img src="/img/tailwind-min.png" alt="tailwind-css">
+                    </div>
+                    <div class="logo hidden">
+                        <img src="/img/git-min.png" alt="git">
+                    </div>
+                    <div class="logo hidden">
+                        <img src="/img/php-min.png" alt="php">
+                    </div>
+                    <div class="logo hidden">
+                        <img src="/img/swiftUI.png" alt="swiftUI">
                     </div>
                 </div>
             </div>
-            <div class="info_container" id="project">
+            <div class="container_project_container" id="project">
                 <div class="hidden">
                     <h1 class="card">Project</h1>
                     <div class="project_container">
@@ -137,21 +136,21 @@
                     </div>
                 </div>
             </div>
-            <div class="info_container" id="contact">
+            <div class="contact_container" id="contact">
                 <div class="hidden">
                     <h1 class="card">Contact Me !</h1>
                     <div class="item_social">
-                        <div class="hidden">
+                        <div class="hidden social_text">
                             <a href="mailto:bucspun.d@gmail.com" target="_blank">
                                 <img src="/img/gmail.png" alt="Mail">
                             </a>
-                            <h1>bucspun.d@gmail.com</h1>
+                            <h3>bucspun.d@gmail.com</h3>
                         </div>
-                        <div class="hidden">
+                        <div class="hidden social_text">
                             <a href="tel:064682****">
                                 <img src="/img/phone.png" alt="Phone">
                             </a>
-                            <h1>06 46 82 ** **</h1>
+                            <h3>06 46 82 ** **</h3>
                         </div>
                     </div>
                 </div>
@@ -163,6 +162,7 @@
 
 
 </div>
+
 
 <script defer src="app.js"></script>
 </body>

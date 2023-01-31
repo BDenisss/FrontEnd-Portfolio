@@ -486,6 +486,11 @@ h3 {
     margin: 0 24px;
 }
 
+.container .main-content .content .presentation {
+    text-align: left;
+    font-size: 32px;
+}
+
 /* FIN CONTENU PRESENTATION */
 
 /* TRAVAIL RESPONSIVE */

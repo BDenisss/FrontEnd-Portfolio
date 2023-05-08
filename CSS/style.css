@@ -138,7 +138,7 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 40px;
+    padding: 0 10%;
     grid-area: content;
 }
 
@@ -598,7 +598,6 @@ h3 {
     .container .main-content {
         text-align: center;
         justify-content: center;
-        padding: 0;
     }
 
     .container .main-content .content h1 {
@@ -607,7 +606,7 @@ h3 {
 
     .container .main-content .content h3 {
         font-size: 28px;
-
+        text-align: center !important;
     }
 
     .container .main-content .content h5 {

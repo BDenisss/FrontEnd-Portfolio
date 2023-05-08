@@ -35,3 +35,8 @@ hamburger.addEventListener("click", () => {
 /* Fonction du burger */
 
 
+    AOS.init();
+
+
+
+

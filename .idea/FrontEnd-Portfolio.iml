@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="aos" level="application" />
+    <orderEntry type="library" name="b5ab5411f1" level="application" />
+    <orderEntry type="library" name="vwp3eqo" level="application" />
+  </component>
+</module>

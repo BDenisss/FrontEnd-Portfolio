@@ -707,13 +707,13 @@ h3 {
         position: absolute;
         right: 0 ;
         width: 50%;
-        height: 80vh;
+        height: 70vh;
         top: 8vh;
         background-color: #003960;
         border: 2px solid rgba(128, 128, 128, 0.7);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        place-content: center;
+        place-items: center;
         transform: translateX(100%);
         transition: transform 0.5s ease-in-out;
     }
@@ -769,6 +769,7 @@ h3 {
 
     .container .main-content .content .intro {
         gap: 0;
+        margin: 0 24px;
     }
 
     .item {
@@ -783,7 +784,7 @@ h3 {
 
     .container .main-content .content h3 {
         font-size: 16px;
-        text-align: center;
+        text-align: center !important;
     }
 
 
